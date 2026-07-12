@@ -1,5 +1,5 @@
 [project]
-name = "browser"
+name = "browsertool"
 version = "0.1.0"
 description = "Control browser webviews via Python Playwright CDP. Perform clicks, navigation, screenshots, and JS evaluation on temporary Tauri webview."
 readme = "README.md"
