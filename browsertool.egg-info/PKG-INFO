@@ -1,8 +1,0 @@
-Metadata-Version: 2.4
-Name: browsertool
-Version: 0.1.0
-Summary: Control browser webviews via Python Playwright CDP. Perform clicks, navigation, screenshots, and JS evaluation on temporary Tauri webview.
-Requires-Python: >=3.13
-Description-Content-Type: text/markdown
-Requires-Dist: openchadpy>=0.1.23
-Requires-Dist: playwright>=1.61.0
