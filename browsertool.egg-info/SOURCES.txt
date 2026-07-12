@@ -1,0 +1,8 @@
+pyproject.toml
+browsertool/__init__.py
+browsertool/main.py
+browsertool.egg-info/PKG-INFO
+browsertool.egg-info/SOURCES.txt
+browsertool.egg-info/dependency_links.txt
+browsertool.egg-info/requires.txt
+browsertool.egg-info/top_level.txt

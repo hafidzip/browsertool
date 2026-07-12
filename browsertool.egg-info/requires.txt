@@ -1,0 +1,2 @@
+openchadpy>=0.1.23
+playwright>=1.61.0
