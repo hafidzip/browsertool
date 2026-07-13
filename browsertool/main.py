@@ -269,7 +269,7 @@ class BrowserTool(ToolBase):
             'name': '(Optional) Browser Profile',
             'value': {
                 'type': 'string',
-                'placeholder': 'Browser ID...'
+                'placeholder': 'Profile Name / Browser ID...'
             }
         },
         {

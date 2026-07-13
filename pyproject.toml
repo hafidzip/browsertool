@@ -1,6 +1,6 @@
 [project]
 name = "browsertool"
-version = "0.1.2"
+version = "0.1.21"
 description = "Control browser webviews via Python Playwright CDP. Perform clicks, navigation, screenshots, and JS evaluation on temporary Tauri webview."
 readme = "README.md"
 requires-python = ">=3.13"
