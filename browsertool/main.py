@@ -266,14 +266,14 @@ class BrowserTool(ToolBase):
 
     fields = [
         {
-            'name': 'Browser Profile',
+            'name': '(Optional) Browser Profile',
             'value': {
                 'type': 'string',
                 'placeholder': 'Browser ID...'
             }
         },
         {
-            'name': 'URL',
+            'name': '(Optional) URL',
             'value': {
                 'type': 'string',
                 'placeholder': 'https://...'
@@ -305,15 +305,12 @@ class BrowserTool(ToolBase):
         if not code:
             return {"error": "'code' parameter is required and must not be empty."}
 
-        profile: str = self.get_field("Browser Profile") or "shared"
-        url: str = self.get_field("URL") or "about:blank"
+        profile: str = self.get_field("(Optional) Browser Profile") or "shared"
+        url: str = self.get_field("(Optional) URL") or "about:blank"
 
         logger.info(f"[URL]: {url}")
 
         request_label = f"webview-agent-{str(uuid4())}"
-
-        if not profile.startswith("webview-agent"): 
-            profile = f"temp-{request_label}"
 
         if re.search(r"[^\w\-]", profile):
             import hashlib
